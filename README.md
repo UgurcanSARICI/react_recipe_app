@@ -64,24 +64,24 @@ Recipe App  (folder)
 <hr>
 
 ### Built with
-I made an App with React-Router.
-I used Tailwincss for styling.
-I get the data with AXIOS.
-I used Link NavLink to redirect to desired pages.
-I learned how to use;
-Components
-useState
-React Router DOM V6
-useNavigate
-useLocation
-useParams
-styled components
-axios
-import/export
-Props
-React Developer Tool
-Destructuring props
-array map method
+- I made an App with React-Router.
+- I used Tailwincss for styling.
+- I get the data with AXIOS.
+- I used Link NavLink to redirect to desired pages.
+___
+- I learned how to use;
+- Components
+- useState
+- React Router DOM V6
+- useNavigate
+- useLocation
+- useParams
+- axios
+- import/export
+- Props
+- React Developer Tool
+- Destructuring props
+- array map method
 
 
 
