@@ -7,7 +7,7 @@ const Details = () => {
 
   console.log(detail);
   return (
-    <div className="min-h-screen bg-blue-400">
+    <div className="min-h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
       <Navbar />
       <p className="text-3xl text-center mt-5 font-semibold">{detail.label}</p>
       <div className="flex justify-evenly items-center h-[30rem] flex-wrap">
