@@ -45,14 +45,14 @@ Recipe App  (folder)
 
 ## Screenshot
 <p align="center">
-<a href="https://react-random-user-us.netlify.app/"><img src="user.gif" alt="gif"></a>
+<a href="https://react-recipe-app-us.netlify.app/"><img src="recipe.gif" alt="gif"></a>
 </p>
 
 
 
 ## Links
 <hr>
-<b>Check The Live Website ➡️</b> <a href="https://react-random-user-us.netlify.app/">Live Website</a>
+<b>Check The Live Website ➡️</b> <a href="https://react-recipe-app-us.netlify.app/">Live Website</a>
 <hr>
 
 ### Built with
