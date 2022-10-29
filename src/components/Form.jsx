@@ -1,9 +1,11 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
+import RecipeCard from "../pages/RecipeCard";
 
 const Form = () => {
   const [searchBar, setSearchBar] = useState(null);
   const [meal, setMeal] = useState(null);
+  const [data, setData] = useState(null);
 
   const apiKey = "654e7a3e84b3384f93779196b6c6ec82";
   const appId = "46fc98d5";
@@ -15,6 +17,7 @@ const Form = () => {
       )
       .then((res) => {
         console.log(res);
+        setData(res.data.hits);
       })
       .catch((err) => console.log(err));
 
@@ -53,6 +56,9 @@ const Form = () => {
         >
           Search
         </button>
+      </div>
+      <div className="flex flex-wrap items-center justify-center">
+        {data && data.map((item, idx) => <RecipeCard data={item} key={idx} />)}
       </div>
     </>
   );
