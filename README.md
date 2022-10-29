@@ -32,10 +32,18 @@ Recipe App  (folder)
 ├── public
 │     └── index.html
 ├── src
-│    ├── assets.js
-│    │       └── [images]
+│    ├── components
+│    │──────└──Form.jsx
+│    │──────└──Header.jsx
+│    │──────└──Navbar.jsx
+│    │
+│    │────pages
+│    │──────└──About.jsx
+│    │──────└──Details.jsx
+│    │──────└──Home.jsx
+│    │──────└──Login.jsx
+│    │──────└──RecipeCards.jsx
 │    ├── App.js
-│    ├── App.css
 │    ├── index.js
 │    └── index.css
 ├── package.json
