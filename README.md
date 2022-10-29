@@ -97,6 +97,7 @@ array map method
 - [W3 Schoold](https://www.w3schools.com/) 
 - [MDN](https://developer.mozilla.org/en-US/) 
 - [REACT](https://reactjs.org/) 
+- [TAILWIND](https://tailwindcss.com/) 
 
 
 
